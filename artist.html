@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artist | Sarkar Fest 2026</title>
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="assets/sarkar-entertainment-logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;0,900;1,800;1,900&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="artist">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Sarkar Fest home">
+      <img src="assets/sarkar-entertainment-logo.jpg" alt="" width="40" height="40">
+      <span>Sarkar Fest</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span><span></span></button>
+    <nav id="nav" class="nav">
+      <a href="index.html#artists">All artists</a>
+      <a href="index.html#event">Event</a>
+      <a href="index.html#venue">Venue</a>
+      <a class="btn btn--small" data-ticket href="index.html#tickets">Get tickets</a>
+    </nav>
+  </header>
+
+  <main id="artistRoot"><!-- rendered by js/artist-page.js --></main>
+  <noscript><p class="wrap" style="padding:6rem 0">This page needs JavaScript. <a href="index.html#artists">Back to artists</a></p></noscript>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <img src="assets/sarkar-entertainment-logo.jpg" alt="Sarkar Entertainment" width="120" height="120">
+        <p>Sarkar Entertainment<br><span>Bringing Nepali music to Brisbane.</span></p>
+      </div>
+      <ul class="footer__links">
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" data-social="instagram">Instagram</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" data-social="facebook">Facebook</a></li>
+        <li><a href="mailto:hello@example.com" data-contact>Contact</a></li>
+      </ul>
+    </div>
+    <p class="footer__copy">&copy; <span id="year">2026</span> Sarkar Entertainment. All rights reserved.</p>
+  </footer>
+
+  <script src="js/artists.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/artist-page.js"></script>
+</body>
+</html>
